@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+body section.head_blue {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  height: 500px;
+  background-color: #0289ff;
+  border: 2px solid black;
+  border-radius: 48% 48% 45% 45%;
+  position: relative;
+}
+body section.head_blue div.eyes {
+  display: flex;
+  justify-content: center;
+}
+body section.head_blue div.eyes div.eye_white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 125px;
+  background-color: white;
+  border-radius: 48% 48% 45% 45%;
+  margin-top: 3rem;
+  border: 2px solid black;
+  z-index: 9;
+}
+body section.head_blue div.eyes div.eye_white div.eyeball_black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 30px;
+  background-color: black;
+  border-radius: 48% 48% 45% 45%;
+}
+body section.head_blue div.eyes div.eye_white div.eyeball_black div.eyeball_white {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+body section.head_blue div.head_white {
+  display: flex;
+  width: 420px;
+  height: 390px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50% 50% 45% 45%;
+  position: absolute;
+  bottom: 0.1rem;
+  left: 3rem;
+}
+body section.head_blue div.head_white div.nose {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.7rem;
+  left: 11.5rem;
+}
+body section.head_blue div.head_white div.nose div.nose_light {
+  width: 13px;
+  height: 13px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1.3rem;
+  left: 1.1rem;
+}
+body section.head_blue div.head_white div.beard {
+  display: flex;
+}
+body section.head_blue div.head_white div.beard div.left_beard {
+  display: flex;
+}
+body section.head_blue div.head_white div.beard div.left_beard span {
+  width: 8rem;
+  height: 1.5px;
+  background-color: black;
+}
+body section.head_blue div.head_white div.beard div.left_beard span:nth-child(1) {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  transform: rotate(20deg);
+}
+body section.head_blue div.head_white div.beard div.left_beard span:nth-child(2) {
+  position: absolute;
+  top: 8rem;
+  left: 0.5rem;
+  transform: rotate(0deg);
+}
+body section.head_blue div.head_white div.beard div.left_beard span:nth-child(3) {
+  position: absolute;
+  top: 11rem;
+  left: 1rem;
+  transform: rotate(-20deg);
+}
+body section.head_blue div.head_white div.beard div.right_beard {
+  display: flex;
+}
+body section.head_blue div.head_white div.beard div.right_beard span {
+  width: 8rem;
+  height: 1.5px;
+  background-color: black;
+}
+body section.head_blue div.head_white div.beard div.right_beard span:nth-child(1) {
+  position: absolute;
+  top: 4.8rem;
+  left: 17.1rem;
+  transform: rotate(160deg);
+}
+body section.head_blue div.head_white div.beard div.right_beard span:nth-child(2) {
+  position: absolute;
+  top: 7.8rem;
+  left: 17.4rem;
+  transform: rotate(0deg);
+}
+body section.head_blue div.head_white div.beard div.right_beard span:nth-child(3) {
+  position: absolute;
+  top: 10.8rem;
+  left: 17.1rem;
+  transform: rotate(-160deg);
+}
+body section.head_blue div.head_white div.philtrum {
+  width: 2px;
+  height: 246px;
+  background-color: black;
+  position: absolute;
+  top: 5.8rem;
+  left: 13rem;
+}
+body section.head_blue div.head_white div.mouse {
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 2.5rem;
+  left: 2rem;
+  border-radius: 0 0 45% 45%;
+  border-bottom: 2px solid black;
+}
+body div.tie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  bottom: 9rem;
+  border: 2px solid black;
+  border-radius: 45%;
+  z-index: -5;
+}
+body div.tie div.bell {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  bottom: -2rem;
+  border: 2px solid black;
+}
+body div.tie div.bell div.bell_line {
+  width: 60px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: yellow;
+  position: absolute;
+  bottom: 1.5rem;
+  border: 2px solid black;
+}
+body div.tie div.bell div.bell_hole1 {
+  width: 15px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  bottom: 1rem;
+}
+body div.tie div.bell div.bell_hole2 {
+  width: 2px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  bottom: -0.1rem;
+}/*# sourceMappingURL=style.css.map */
