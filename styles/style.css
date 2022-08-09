@@ -6,6 +6,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -159,8 +160,8 @@ body div.tie {
   width: 300px;
   height: 100px;
   background-color: red;
-  position: absolute;
-  bottom: 9rem;
+  position: relative;
+  top: -5rem;
   border: 2px solid black;
   border-radius: 45%;
   z-index: -5;
