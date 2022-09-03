@@ -73,6 +73,7 @@ body{
                 position: absolute;
                 top: 2.7rem;
                 left: 11.5rem;
+                border: 2px solid black;
 
                 div.nose_light{
                     width: 13px;
@@ -221,5 +222,37 @@ body{
                 bottom: -.1rem;
             }
         }
+    }
+
+    div.change_color{
+        display: flex;
+        div.red,div.yellow,div.green,div.blue{
+            min-width: 2.5rem;
+            min-height: 2.5rem;
+            border: 2px solid black;
+            border-radius: 50%;
+            margin: .5rem;
+            cursor: pointer;
+
+            &:hover{
+                opacity: .9;
+            }
+        }
+        div.blue{
+            background-color: #0289ff;
+        }
+        div.red{
+            background-color: red;
+        }
+        div.yellow{
+            background-color: yellow;
+        }
+        div.green{
+            background-color: green;
+        }
+    }
+
+    .red_head{
+        background-color: #0289ff;
     }
 }

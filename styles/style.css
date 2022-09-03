@@ -71,6 +71,7 @@ body section.head_blue div.head_white div.nose {
   position: absolute;
   top: 2.7rem;
   left: 11.5rem;
+  border: 2px solid black;
 }
 body section.head_blue div.head_white div.nose div.nose_light {
   width: 13px;
@@ -200,4 +201,33 @@ body div.tie div.bell div.bell_hole2 {
   background-color: black;
   position: absolute;
   bottom: -0.1rem;
+}
+body div.change_color {
+  display: flex;
+}
+body div.change_color div.red, body div.change_color div.yellow, body div.change_color div.green, body div.change_color div.blue {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+body div.change_color div.red:hover, body div.change_color div.yellow:hover, body div.change_color div.green:hover, body div.change_color div.blue:hover {
+  opacity: 0.9;
+}
+body div.change_color div.blue {
+  background-color: #0289ff;
+}
+body div.change_color div.red {
+  background-color: red;
+}
+body div.change_color div.yellow {
+  background-color: yellow;
+}
+body div.change_color div.green {
+  background-color: green;
+}
+body .red_head {
+  background-color: #0289ff;
 }/*# sourceMappingURL=style.css.map */
